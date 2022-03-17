@@ -1,0 +1,42 @@
+*{
+    margin:0 auto;padding: 0; list-style: none;
+    font-family: "맑은 고딕";
+}
+a{text-decoration: none; color:inherit;}
+
+#header{
+    width: 1000px; height: 100px;
+    background-color: aqua;
+}
+#container{
+    width: 1000px; height: 600px;
+    background-color: rgb(197, 197, 219);
+}
+.menu{
+    width: 200px;
+}
+.menu>li{
+    line-height: 50px;
+    text-align: center;
+}
+.menu>li:hover{
+    background-color: orange;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+
+.nav{
+    width: 200px; height: 600px;
+    float: left;
+    background-color: rgb(157, 93, 216);
+}
+.contents{
+    width: 800px; height: 600px;
+    float: left;
+}
+#footer{
+    width: 1000px; height: 100px;
+    background-color: rgb(151, 146, 146);
+}

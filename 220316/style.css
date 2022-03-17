@@ -1,0 +1,274 @@
+*{
+  margin: 0 auto; padding: 0;
+  list-style: none;
+  font-family: 맑은 고딕;
+}
+a{text-decoration: none; color:  inherit;}
+/*----------------------------------------------------defalut*/
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-bottom: #000000;
+}
+.logo {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.logo>img>a {
+  width: 100%;
+  height: 100%;
+}
+/*----------------------------------------------------header end*/
+nav{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+}
+.topmenu {
+  width: 1200px;
+  height: 60px;
+  margin-top: auto;
+
+}
+.menu>li {
+  width: 200px;
+  float: left;
+  text-align: center;
+  line-height: 70px;
+  font-size: 16px;
+}
+.menu>li:hover{
+  cursor: pointer;
+  color: red;
+  font-size: 1.2em;
+  transition: all 0.4s;
+  font-weight: bold;
+  background-color: #021d31;
+}
+/*----------------------------------------------------menu end*/
+.mainbanner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.mainimg  {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+.mainimg>img  {
+  width: 100%;
+  height: 100%;
+}
+.maintext {
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
+  color: white;
+  font-size: 3em;
+  text-shadow: 5px 5px 5x black;
+  font-family: 'Noto Serif KR', serif;
+  font-family: 'Yeon Sung', cursive;
+}
+.p  {
+  display: block;
+}
+/*----------------------------------------------------main end*/
+#content  {
+  width: 100%;
+  height: 500px;
+}
+.contitle {
+  width: 1200px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.conbox {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+}
+.box  {
+  width: 250px;
+  height: 350px;
+}
+.conimg {
+  width: 250px;
+  height: 250px;
+}
+.conimg>img {
+  width: 100%;
+  height: 100%;
+}
+.context  {
+  width: 250px;
+  height: 90px;
+  font-size: 0.8em;
+  padding-top: 10px;
+}
+.context>p  {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/*----------------------------------------------------contend end*/
+.story  {
+  width: 100%;
+  height: 500px;
+  background-color: #042035;
+}
+.storytitle {
+  width: 1200px;
+  height: 100px;
+  font-size: 2.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+}
+.storybox {
+  width: 1200px;
+  height: 400px;
+  display: flex;
+}
+.sbox1  {
+  width: 600px;
+  height: 400px;
+}
+.sbox1text  {
+  width: 600px;
+  height: 210px;
+  color: white;
+  padding-top: 50px;
+}
+.sbox1text>p  {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.sbox1btn>input {
+  background-color: rgba(255, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+  padding: 15px;
+  width: 200px;
+  font-size: 1.2em;
+}
+.sbox1btn>input:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.sbox2  {
+  width: 600px;
+  height: 400px;
+}
+.sbox2img {
+  width: 500px;
+  height: 300px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.sbox2img>img {
+  width: 100%;
+  height: 100%;
+}
+/*----------------------------------------------------story box end*/
+.imgicon  {
+  width: 100%;
+  height: 350px;
+}
+.iconbox  {
+  width: 1200px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+.ibox1  {
+  width: 600px;
+  height: 250px;
+}
+.ibox1:nth-child(1)  {
+  border-right: 1px solid gray;
+}
+.ititle {
+  width: 600px;
+  height: 50px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+}
+.icon {
+  width: 600px;
+  height: 230px;
+  display: flex;
+}
+.con  {
+  width: 150px;
+  height: 230px;
+  text-align: center;
+}
+.con>img {
+  width: 110px;
+  margin: 20px;
+  margin-top: 10px;
+}
+/*----------------------------------------------------icons end*/
+footer  {
+  width: 100%;
+  height: 200px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.foot1  {
+  width: 1200px;
+  height: 50px;
+}
+.footlist{
+  width: 700px;
+
+}
+.footlist>li  {
+  float: left;
+  font-size: 0.9em;
+  line-height: 50px;
+  /* margin-right: 10px; */
+  /* border-right: 1px solid gray; */
+  
+}
+.footlist>li:hover  {
+  cursor: pointer;
+  font-weight: bold;
+}
+footer>p  {
+  font-size: 0.9em;
+  color: gray;
+}
+footer>select {
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid gray;
+  width: 150px;
+  padding: 10px;
+  color: gray;
+  text-align: left;
+}
+
+
+
+

@@ -1,0 +1,225 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "맑은 고딕";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#header{
+    width: 100%;
+    height: 110px;
+}
+.topmenu{
+    width: 180px;
+    float: right;
+    margin-right: 50px;
+    font-size: 0.9em;
+    color: #333;
+
+}
+.topmenu>li{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    line-height: 90px;
+}
+.topmenu>li:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+}
+
+.logo{
+    width: 250px;
+    height: 110px;
+}
+.logo>a>img{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+}
+.menu{
+    width: 600px;
+    height: 50px;
+}
+.menu>li{
+    width: 200px;
+    text-align: center;
+    float: left;
+    line-height: 50px;
+    transition: all 0.4s;
+}
+.menu>li:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+#wrap{}
+
+#imgslide{
+    width: 100%;
+    height: 350px;
+    background-color: #ccdce2;
+    box-shadow: inset 2px 2px 20px #3b6778; /*inset효과:안으로 들어감 */
+    padding: 40px 0; /*상,하만 40px 띄움 */
+    position: relative;
+}
+.imgs{
+    width: 1000px;
+    height: 350px;
+    background-color: #000;
+    position: relative;
+}
+
+.imgs>img{
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
+}
+
+.welcome{
+    width: 500px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3); /*투명도*/
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    z-index: 1;
+    transform: translatex(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    top: 180px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#content{
+    width: 1000px;
+    min-height: 300px; /* 최소 크기를 주고 커지면 따라서 커짐 */    
+}
+.notice{
+    width: 500px;
+    text-align: center;
+    float: left;
+}
+.table1{
+    width: 450px;
+    font-size: 0.9em;
+    color: #066;
+    border-collapse: collapse;
+    border-top: 2px solid #4298cc;
+    border-bottom: 2px solid #4298cc;
+}
+.table1 tr>th{
+    border-bottom: 1px solid #4298cc;
+    padding:  5px;
+}
+.table1 tr>td{
+    border-bottom: 1px solid #4298cc;
+    padding: 5px;
+    text-align: left;
+}
+.table1 tr:not(:first-child):hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+.title{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #893700;
+    margin-bottom: 5px;
+}
+.partner{
+    width: 500px;
+    text-align: center;
+    float: left;
+}
+#footer{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right bottom, black, white ) ;
+    text-align: center ;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+h1{
+    font-size:40px;
+    letter-spacing:-3px;
+    color:#C8C8C8;
+    text-align:center;
+    padding-top:30px;
+}
+
+fieldset{
+    width:450px; 
+    height:400px; 
+    margin: 0 auto; 
+    margin-top:30px; 
+    border:5px solid #ccc; 
+    border-radius:20px;
+    margin-bottom: 10px;
+}
+
+#login{
+    margin-left:50px;
+    margin-top:30px;
+    float:left;
+}
+
+#btnLogin{
+    background:#4e703e; 
+    color:#fff; 
+    border:0; 
+    width:90px; 
+    height:50px; 
+    border-radius:5px; 
+    float:left;
+    margin-top:28px;
+    margin-left:10px;
+    cursor: pointer;
+}
+#btnJoin{
+    background:#535362; 
+    color:#fff; 
+    border:0; 
+    width:90px; 
+    height:30px; 
+    border-radius:5px; 
+    margin-top: 20px;
+}
+#btnSearch{ 
+    background:#535362; 
+    color:#fff; 
+    border:0; 
+    width:90px; 
+    height:30px; 
+    border-radius:5px;
+}
+#btn1{clear:both; margin-left:100px;}
+#btn2{margin-left:100px;}
+			
+#login label{display:block; float:left; width:120px;margin-top: 1px;}
+
+p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+

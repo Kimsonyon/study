@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test01.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <img src="logo/logo.png">
+        </div>
+        <div class="nav">
+            <div class="navtop">
+                <a href="#">Login</a> &nbsp;
+                <a href="#">Signup</a> &nbsp;
+                <a href="#">Id/Pw</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="navbottom">
+                <ul class="menu">
+                    <li>여행가이드소개</li>
+                    <li>국내여행지</li>
+                    <li>해외여행지</li>
+                </ul>
+            </div>
+        </div><!--nav end-->
+    </div>
+    
+    <div id="imgslide">
+        <div class="imgs">
+            <img src="images/slide/images(1).jpg">
+        </div>
+    </div><!--imgslide end-->
+    <div id="content">
+        <div class="title">
+          <img src="images/flight.png" width="20" height="20">공지사항
+
+        </div>
+
+        <div class="box1">파트너</div>
+        <div class="box1">배경사진</div>
+        <div class="box1" style="display:flex;">
+            <div class="icons">첫번째 박스</div>
+            <div class="icons">두번째 박스</div>
+            <div class="icons">세번째 박스</div>
+        </div>
+        <div class="box1">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/6PmRRLrLDwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="box1">
+            <!-- map.kakao.com -->
+            <!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1646875641764" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1646875641764",
+		"key" : "29ets",
+		"mapWidth" : "450",
+		"mapHeight" : "250"
+	}).render();
+</script>
+        </div>
+    </div><!--content end-->
+
+    <div id="footer">
+        all rights reserved test@com. since 2022.03
+    </div>
+
+</body>
+</html>

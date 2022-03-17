@@ -1,0 +1,19 @@
+*{
+    margin:0 auto;padding: 0; 
+    list-style: none; font-family: "맑은 고딕";
+}
+a{text-decoration: none; color:inherit;}
+
+.table1{
+    border-collapse: collapse;
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+}
+.table1 tr>th{
+    padding: 5px;
+    border-bottom: 1px solid #999;
+}
+.table1 tr>td{
+    padding: 5px;
+    border-bottom: 1px solid #999;
+}

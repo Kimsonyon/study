@@ -1,0 +1,91 @@
+*{
+    margin:0 auto;padding: 0; list-style: none;
+    font-family: "맑은 고딕";
+}
+a{text-decoration: none; color:inherit;}
+
+#header{
+    width: 1000px; height: 110px;
+    background-color: rgba(17,24,54,.9);
+    color: #FFf;
+}
+#container{
+    width: 1000px; height: 500px;
+    background-color: rgb(116, 82, 82);
+}
+.menu{
+    width: 200px;
+    margin-top: 30px;
+}
+.menu>li{
+    line-height: 50px;
+    text-align: center;
+}
+.menu>li:hover{
+    background-color: orange;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.nav{
+    width: 200px; height: 500px;
+    background-color: rgb(150, 200, 233);
+    float: left;
+}
+.contents{
+    width:800px; height: 500px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.title{
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.table1{
+    width: 80%;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.table1 tr>th{
+    padding: 10px;
+    border-bottom: 1px solid rgb(53, 50, 50);
+}
+
+.table1 tr>td{
+    padding: 7px;
+    border-bottom: 1px solid #333;
+}
+
+.table1 tr:not(:first-child):not(:last-child):hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.box1{
+    width: 80%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bt1{
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+}
+
+.bt1:hover{cursor: pointer; opacity: 0.5;}
+
+#footer{
+    width: 1000px; height: 150px;
+    background-color: rgba(17,24,54,.9);
+    color: #FFf;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>posting.html</title>
+</head>
+
+<body>
+    <form action="post_result.php" method="post">
+
+    <li>
+        이름 <input type="text" name="content1">
+    </li>    
+    <li>
+        아이디 <input type="text" name="content2">
+    </li>    
+    <li>
+        패스워드 <input type="password" name="content3">
+    </li>    
+    <li>
+        패스워드 확인 <input type="text" name="content4">
+    </li>    
+    <li>
+        성별: 남성 <input type="radio" name="content5" value="남자">
+             여성 <input type="radio" name="content5" value="여자">
+    </li>    
+    <li>
+        최종학력 
+        <select name="content6">
+            <option value="">==선 택==</option>
+            <option value="1">중졸</option>
+            <option value="2">고졸</option>
+            <option value="3">대학</option>
+            <option value="4">대학교</option>
+        </select>
+    </li>
+    <li>
+        이메일 수신
+    </li>
+    <li>
+        남기는 말  <input type="text" name="content7">
+    </li>
+    <input type="submit" value="회원가입">
+
+    </form>
+    </body>
+    </html>

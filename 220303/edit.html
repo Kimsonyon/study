@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>write.html</title>
+    <link rel="stylesheet" href="style_notice.css">
+
+</head>
+<body>
+    <br><br><br>
+    <form name="frm1" method="post" action="edit_ok.html">
+    <table class="table1">
+        <tr>
+            <td>제목</td>
+            <td><input type="text" name="title" value="부산바닷가"></td>
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td>
+                 <textarea name="content" rows="5" cols="60">우리고장 부산사랑</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="수정" onclick="send()" >
+                <input type="reset" value="취소">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
+
+<script>
+    function send(){
+        //제목을 썼는지 체크
+        if(frm1.title.value==""){
+            alert("제목을 입력하세요") ;
+            frm1.title.focus();
+            return false;
+        }
+        //내용을 썼는지 체크
+        if(frm1.content.value==""){
+            alert("내용을 입력하세요") ;
+            frm1.content.focus() ;
+            return false;
+        }
+        //다썼으면 제출.
+        document.frm1.submit() ;
+
+    }
+</script>
